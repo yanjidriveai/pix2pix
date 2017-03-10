@@ -13,9 +13,9 @@ require 'models'
 
 opt = {
    DATA_ROOT = '',         -- path to images (should have subfolders 'train', 'val', etc)
-   batchSize = 1,          -- # images in batch
-   loadSize = 286,         -- scale images to this size
-   fineSize = 256,         --  then crop to this size
+   batchSize = 10,          -- # images in batch
+   loadSize = 1144,         -- scale images to this size
+   fineSize = 1024,         --  then crop to this size
    ngf = 64,               -- #  of gen filters in first conv layer
    ndf = 64,               -- #  of discrim filters in first conv layer
    input_nc = 3,           -- #  of input image channels
